@@ -5,16 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Wretched Rose
-        </h1>
-        <h2>
-          Coming 2025 or 2026 ∨ 2027 || 2028 or 2029 or specifically 2034
-        </h2>
-        <h3>
-          
-        </h3>
+        <h1>Wretched Rose</h1>
+        <h2>N64-era inspired 3D platforming adventure</h2>
+        <h3>More Details coming soon!</h3>
       </header>
     </div>
   );
