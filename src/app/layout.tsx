@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "Wretched Rose",
   description: "Come sit! I have much to discuss. Wretched Rose is a fast paced 3D Action Platformer Adventure where you must save Toymaker's tea party!",
   keywords: ['indie games', 'game development', 'wretched rose', 'rose', 'Alice in Wonderland', 'serenitydev', "serenity dev", "serenity_dev"],
   themeColor: '#04010A',
