@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -69,6 +70,62 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+          <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href="https://www.serenitydev.net/games/wretched-rose"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/file.svg"
+              alt="File icon"
+              width={16}
+              height={16}
+            />
+            Parent Site
+          </a>
+          <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href="https://bsky.app/profile/serenitydev.net"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/window.svg"
+              alt="Window icon"
+              width={16}
+              height={16}
+            />
+            Dev's Bluesky
+          </a>
+          <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href="https://x.com/Serenity_Dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/globe.svg"
+              alt="Globe icon"
+              width={16}
+              height={16}
+            />
+            Dev's Twitter
+          </a>
+        </footer>
+        <Image
+            aria-hidden
+            src="/images/renders/GardenScene.png"
+            alt="Toymaker sitting in the garden"
+            style={{ width: '100%', height: 'auto' , display: 'block', margin: 'auto'}}
+            width={3840}
+            height={1080}
+            quality={95}
+        />
         <Analytics />
       </body>
     </html>
