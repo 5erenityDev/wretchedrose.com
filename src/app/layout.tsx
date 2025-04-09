@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Wretched Rose",
-  description: "Come sit! I have much to discuss. Wretched Rose is a fast paced 3D Action Platformer Adventure where you must save Toymaker's tea party!",
+  description: "Please, Come Sit! We have so much to discuss! Wretched Rose is a fast paced 3D Action Platformer Adventure where you must save Toymaker's tea party!",
   keywords: ['indie games', 'game development', 'wretched rose', 'rose', 'Alice in Wonderland', 'serenitydev', "serenity dev", "serenity_dev"],
   themeColor: '#04010A',
   icons: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     title: 'Wretched Rose',
-    description: "Come sit! I have much to discuss. Wretched Rose is a fast paced 3D Action Platformer Adventure where you must save Toymaker's tea party!",
+    description: "Please, Come Sit! We have so much to discuss! Wretched Rose is a fast paced 3D Action Platformer Adventure where you must save Toymaker's tea party!",
     locale: 'en_US',
     url: 'https://www.wretchedrose.com/',
     images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary', // Or 'summary', 'app', 'player'
     title: 'Wretched Rose',
-    description: "Come sit! I have much to discuss. Wretched Rose is a fast paced 3D Action Platformer Adventure where you must save Toymaker's tea party!",
+    description: "Please, Come Sit! We have so much to discuss! Wretched Rose is a fast paced 3D Action Platformer Adventure where you must save Toymaker's tea party!",
     site: '@Serenity_Dev', // Optional: Your website's Twitter handle
     creator: '@Serenity_Dev', // Optional: The creator's Twitter handle
     images: [
